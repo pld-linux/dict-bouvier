@@ -46,7 +46,7 @@ install -d $RPM_BUILD_ROOT{%{_datadir}/dictd/,%{_sysconfdir}/dictd}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
-%post 
+%post
 if [ -f /var/lock/subsys/dictd ]; then
 	/etc/rc.d/init.d/dictd restart 1>&2
 fi
