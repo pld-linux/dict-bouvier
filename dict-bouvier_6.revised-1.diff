@@ -1,0 +1,903 @@
+--- dict-bouvier-6.revised.orig/bouviera.txt
++++ dict-bouvier-6.revised/bouviera.txt
+@@ -667,11 +667,10 @@
+ 
+ ABBREVIATIONS and abbreviated references.  The following list, though
+ necessarily incomplete, may be useful to some readers.
+-
++---------------------------------------
+ A, a, the first letter of the alphabet, is sometimes used in the ancient law
+   books to denote that the paging is the first of that number in the book.
+   As an abbreviation, A is used for anonymous.
+-
+ A. & A. on Corp. Angell & Ames on Corporations. Sometimes cited Ang. on
+   Corp.
+ A. B. Anonymous Reports, printed at the end of Bendloe's Reports.
+@@ -772,7 +771,7 @@
+ Ay. Ayliff'es Pandect.
+ Ayl. Parerg. Ayliffe's Parergon juris canonici Anglicani.
+ Azun. Mar. Law. Azuni's Maritime Law of Europe.
+-
++---------------------------------------
+ B, b, is used to point out that a number, used at the head of a page to
+   denote the folio, is the second number of the same volume.
+ B. B. Bail Bond.
+@@ -978,7 +977,7 @@
+   Burt. Man. Pr.
+ Burt. on Real Prop. Burton on Real Property.
+ Butl. Hor. Jur. Butler's Horae Juridicae Subsecivae.
+-
++---------------------------------------
+ C. Codes, the Code of Justinian.
+ C. Code.
+ C. Chancellor.
+@@ -1221,7 +1220,7 @@
+ Cush. Trust. Pr. Cushing on Trustee Process, or Foreign Attachment, of the
+   Laws of Massachusetts and Maine.
+ Cust. de Norm. Custome de Normandie.
+-
++---------------------------------------
+ D. dialogue; as, Dr. and Stud. D. 2, c. 24, or Doctor and Student, dialogue
+   2, chapter 24.
+ D. dictum; D. Digest of Justinian.
+@@ -1331,7 +1330,7 @@
+   Toull. or 16 Toullier, instead of being cited 1 Duv. or 1 Duvergier, etc.
+ Dwar. on Stat. Dwarris on Statutes.
+ Dy. Dyer's Reports.
+-
++---------------------------------------
+ E. Easter Term.
+ E. Edward; as 9 E. 3, c. 9.
+ E. of Cov. Earl of Coventry's Case.
+@@ -1387,7 +1386,7 @@
+ Exec. Execution. Exp. Expired.
+ Exton's Mar. Dicaeo. Exton's Maritime Dicaeologie.
+ Extrav. Extravagants.
+-
++---------------------------------------
+ F. Finalis, the last or latter part.
+ F. Fitzherbert's Abridgment.
+ F. & F. Falconer & Fitzherbert's Reports.
+@@ -1446,7 +1445,7 @@
+ Freem. C. C. Freeman's Cases in Chancery.
+ Freem. (Mis.) R. Freeman's Reports of Cases decided by the Superior Court of
+   Chancery of Mississippi.
+-
++---------------------------------------
+ G. George; as, 13 G. 1, c. 29.
+ G. & J. Glyn & Jameson's Reports.
+ G. & J. Gill & Johnson's Reports.
+@@ -1514,7 +1513,7 @@
+ Grot. Grotius de Jure Belli.
+ Gude's Pr. Gude's Practice on the Crown side of King's Bench, &c.
+ Gwill. Gwillim's Tithe Cases.
+-
++---------------------------------------
+ H. Henry; as, 18 H. 7, c. 15.
+ H. Hilary Term.
+ H.A. Hoc Anno
+@@ -1653,7 +1652,7 @@
+ Humph. R. Humphrey's Reports.
+ Hume's com. Hume's Commentaries on the Criminal Law of Scotland.
+ Hut. Hutton's Reports.
+-
++---------------------------------------
+ I. The Institutes of Justinian (q.v.) are sometimes cited, I.1, 3, 4.
+ I. Infra, beneath or below.
+ Ib. Ibidem.
+@@ -1694,7 +1693,7 @@
+ Introd. Introduction.
+ Ir. Eq. R. Irish Equity Reports.
+ Ir. T. R. Irish Term Reports. Sometimes cited Ridg. Irish. T. R. (q.v.)
+-
++---------------------------------------
+ J. Justice.
+ J. institutes of Justinian.
+ J. C. Juris Consultus.
+@@ -1755,7 +1754,7 @@
+ Jr. Mar. Molloy's Jure Maritimo. Sometimes cited Molloy.
+ Jus. Nav. Thod. Jus Navale Thodiorum.
+ Just. Inst. Justinian's Institutes.
+-
++---------------------------------------
+ K. B. King's Bench.
+ K. C. R. Reports in the time of Chancellor King.
+ K.& O. Knapp & Omber's Election Cases.
+@@ -1781,7 +1780,7 @@
+ Kyd on Aw. Kyd on the Law of Awards.
+ Kyd on Bills. Kyd on the Law relating to Bills of Exchange.
+ Kyd on Corp. Kyd on the Law of Corporations.
+-
++---------------------------------------
+ L, in citation means law, as L. 1, 33. Furtum, ff de Furtis, i.e. law 1,
+   section or paragraph beginning with the word Furtum; ff, signifies the
+   Digest, and the words de Furtis denote the title.
+@@ -1893,7 +1892,7 @@
+ Luml on Settl. Lumley on Settlements and Removal.
+ Lut. Ent. Lutwyche's entries.
+ Lutw. Lutwyches' Reports.
+-
++---------------------------------------
+ M. Michaelmas Term.
+ M. Maxim, or Maxims.
+ M. Mary; as 4 Mary st.3, c.1.
+@@ -2049,7 +2048,7 @@
+ Murph. R. Murphy's Reports.
+ My. & Keen. Mylne & Keen's Chancery Reports.
+ Myl.& Cr. Mylne & Craig's Reports.
+-
++---------------------------------------
+ N. Number.
+ N. or Nov. Novellae: the Novels.
+ N. A. Non allocatur.
+@@ -2107,7 +2106,7 @@
+ Nov. REc. Novisimi Recopilacion de las Leyes de Espana.
+ Noy's Max. Nou's Maxims.
+ Noy's R. Noy's Reports.
+-
++---------------------------------------
+ O. Benl. Old Benloe.
+ O. Bridg. Orlando Bridgman's Reports.
+ O. C. Old Code: so is denominated the Civil Code of Louisiana, 1808.
+@@ -2149,7 +2148,7 @@
+ Overt. R. Overton's Reports.
+ Ow. Owen's Reports.
+ Owen, Bankr. Owen on Bankruptcy.
+-
++---------------------------------------
+ P. Page or part. Pp. Pages.
+ P. Pachalis, Easter term.
+ P.C. Pleas of the Crown.
+@@ -2277,7 +2276,7 @@
+ Pro quer. Pro querentum, for the plaintiff.
+ Proct. Pr. Proctor's Practice.
+ Puff. Puffendorff's law of nature.
+-
++---------------------------------------
+ Q. Quaestione, in such a Question.
+ Q. B. Queen's Bench.
+ Q. B. R. Queen's Bench Reports, by Adolphus & Ellis. New series.
+@@ -2290,7 +2289,7 @@
+ Quest. Questions.
+ Quinti Quinto. Yearbook, 5 Henry V.
+ Quon. Attach. Quoniam Attachiamenta. See Dalr. F.L. 47.
+-
++---------------------------------------
+ R. Resolved, ruled, or repealed.
+ R. Richard; as, 2 R. 2, c. 1.
+ Rich. Rep. Richardson's (S.C.) Reports.
+@@ -2409,7 +2408,7 @@
+ Ry.& Mo. Ryan & Moody's Nisi Prius Reports.
+ Ry.& Mo. C. C. Ryan & Moody's Crown Cases.
+ Ry. MEd. Jur. Ryan on Medical Jurisprudence.
+-
++---------------------------------------
+ S. , section.
+ S. B. Upper Bench.
+ S.& B. Smith & Batty's Reports.
+@@ -2593,7 +2592,7 @@
+ Swinb. on Spo. Swinburne on Spousals.
+ Sw. Swinburne on Wills.
+ Syst. Plead. System of Pleading.
+-
++---------------------------------------
+ T. Title.
+ T.& G. Tyrwhitt & Granger's Reports.
+ T.& P. Turner & PHillips' Reports.
+@@ -2663,7 +2662,7 @@
+ Tyrw.& Gra. Tyrwhitt & Granger's Reports.
+ Tyt. Mil. Law. Tytler's Essay on Military Law and the Practice of Military
+   Courts Martial.
+-
++---------------------------------------
+ U.S. United States of America.
+ U.S. Dig. United States Digest. See Metc.& Perk. Dig.
+ Ult. Ultimo, ultima, last, usually applied to last title, paragraph or law.
+@@ -2671,7 +2670,7 @@
+ Under Sher. Under Sheriff, containing the office and duty of High Sheriff,
+   Under Sheriffs and Bailiffs.
+ Ux. et. Et uxor, et uxorem, and wife.
+-
++---------------------------------------
+ V. Versus, against; as AB. v. CD.
+ V. Versiculo, in such a verse.
+ V. Vide, see.
+@@ -2704,7 +2703,7 @@
+ Vinn. Vinnius.
+ Viz. Videlicet, that is to say.
+ Vs. Versus.
+-
++---------------------------------------
+ W. 1, W. 2. Statutes of Westminster, 1 and2.
+ W. C. C. R. Washington's Circuit Court Reports.
+ W.& C. Wilson & Courtenay's Reports.
+@@ -2822,9 +2821,9 @@
+ Wright, Fr. Soc. Wright on Friendly Societies.
+ Wright, Ten. Sir Martin Wright's Law of Tenures.
+ Wy. Pr. Reg. Wyatt's Practical REgister.
+-
++---------------------------------------
+ X. The decretals of Gregory the ninth are denoted by the letter X, thus, X.
+-
++---------------------------------------
+ Y. B. Year Books, (q.v.)
+ Y.& C. Younge & Collyer's Exchequer Reports.
+ Y.& C. N. C. Younge & Collyer's New Cases.
+@@ -2837,7 +2836,7 @@
+ Yo.& Col. N. C. Younge and Collyer's New Cases.
+ Yo. Rep. Younge's Reports.
+ Yo.& Jer. Younge & Jervis' Reports.
+-
++---------------------------------------
+ Zouch's Adm. Zouch's Jurisdiction of the Admiralty of England, asserted.
+ 
+ ABBREVIATORS, eccl. law. Officers whose duty it is to assist in drawing up
+@@ -11164,4 +11163,4 @@
+ the right by inheritance. 8 Toull. n. 245.
+ 
+ AYUNTAMIENTO, Spanish law. A congress of persons the municipal council of a
+-city or town. 1 White's Coll. 416; 12 Pet. 442, notes.
+\ No newline at end of file
++city or town. 1 White's Coll. 416; 12 Pet. 442, notes.
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierc.txt
++++ dict-bouvier-6.revised/bouvierc.txt
+@@ -3589,7 +3589,7 @@
+ COMMISSION, crim. law. The act of perpetrating an offence. There are crimes 
+ of commission and crimes of omission. 
+ 
+-C0@MMISSION, government. Letters-patent granted by the government, under the 
++COMMISSION, government. Letters-patent granted by the government, under the 
+ public seal, to a person appointed to an office, giving him authority to 
+ perform the duties of his office. The commission is not the appointment, but 
+ only evidence of it; and as soon as it is signed and sealed, vests the 
+@@ -3611,7 +3611,7 @@
+ factor. He is sometimes called. a consignee, (q.v.) and the goods he 
+ receives are a consignment. 1 Bouv. Inst. n. 1013. 
+ 
+-COMMISSION OF @REB @ELLION, chan. prac. The name of a writ issuing out of 
++COMMISSION OF REBELLION, chan. prac. The name of a writ issuing out of 
+ chancery, generally directed to four special commissioners, named by the 
+ plaintiff, commanding them to attach the defendant wheresoever he may be 
+ found within the state, as a rebel and contemner of the law, so as to have 
+@@ -3637,14 +3637,14 @@
+ COMMISSIONERS OF SEWERS, Eng. law. Officers whose duty it is to repair sea 
+ banks and walls, survey rivers, public streams, ditches, &c. 
+ 
+-C0@MMISSlONS, contracts, practice. An allowance of compensation to an agent, 
++COMMISSIONS, contracts, practice. An allowance of compensation to an agent, 
+ factor, executor, trustee or other person who manages the affairs of others, 
+ for his services in performing the same. 
+      2. The right of agents, factors or other contractors to commissions, 
+ may either be the subject of a special contract, or rest upon the quantum 
+ meruit. 9 C. & P. 559; 38 E. C. L. R. 227; 3 Smith's R. 440; 7 C. & P. 584; 
+ 32 E. C. L. R. 641; Sugd. Vend. Index, tit. Auctioneer 
+-     3. This compensation is usually the allowance of a certain, per @centage
++     3. This compensation is usually the allowance of a certain, percentage
+ 
+ upon the actual amount or value of the business done. When there is a usage 
+ of trade at the particular place, or in the particular business in which the 
+@@ -3797,7 +3797,7 @@
+ part 4, p. 383; Cruise on Real Property, h.t.; Metc. & Perk. Dig. Common, 
+ and Common lands and General fields. 
+ 
+-C0@MMON APPENDANT, Eng. law. A right attached to arable land, and is an 
++COMMON APPENDANT, Eng. law. A right attached to arable land, and is an 
+ incident of tenure, and supposed to have originated by grant of the lord or 
+ owner of a manor or waste, in consideration of certain rents or services, or 
+ other value, to a freeholder or copyholder of plough land, and at the same 
+@@ -6592,7 +6592,7 @@
+     16. The following words and phrases have received judicial construction 
+ in the cases referred to. The references may be useful to the student and 
+ convenient to the practitioner. 
+-
++-----------------------------
+ A and his associates. 2 Nott.& M'Cord, 400.
+ A B, agent. 1 Breese's R. 172.
+ A B, (seal) agent for C D. 1 Blackf. R. 242.
+@@ -6747,7 +6747,7 @@
+ Attention, shall meet. 3 E. C. L. R. 407; 13 Id. 329.
+ Attest. 9 Mees. & W. 404.
+ Authority-Jurisdiction. 2 Bl. R. 1141.
+-
++-----------------------------
+ Baggage. 6 Hill, N.Y. 586.
+ Baggage of Passengers at the risk of the owners. 19 Wend. 234, 251; 21 Wend. 
+   153; 26 Wend. 591; 17 Verm. 151. 
+@@ -6810,7 +6810,7 @@
+ By a stream. 3 Sumn. R. 170.
+ By next November. 3 Pa. 48.
+ By the year. 2 Miles, R. 302.
+-
++-----------------------------
+ Cabinet of curiosities. 1 Cox, R. 77; 1 Bro. C. C. 467.
+ Came by descent, gift, or devise. 2 Pet. 58.
+ Cargo. 4 Pick. 433; 2 Gill & John. 134, 162.
+@@ -6926,7 +6926,7 @@
+ Current bank money. 5 Humph. R. 140.
+ Curricle. Anthon, 114.
+ Cutting. Russ. & Ry. Cr. Cas. 104.
+-
++-----------------------------
+ Damages. 5 Cowen, 161.
+ Damna. Bac. Ab. Costs, (L.)
+ Dangerous weapon. 1 Baldw. 78.
+@@ -6997,7 +6997,7 @@
+ Dying without issue. 12 East, 253; 3 East, 303, 491; 1 Ves. Jr. 562; 10 Ves. 
+   562; 17 Ves. 482. 
+ Dying without lawful issue. 10 Johns. R. 12; 5 Day, 20; 2 Bro. C. C. 553. 
+-
++-----------------------------
+ Each. 1 B. & C. 682; 8 C. & R. 184; Watts, 51; 10 Serg. & R. 33.
+ Eadem. Co. Litt. 20 b.
+ Effects. 13 Ves. 39; 15 Ves. 326, 507; Cowp. 299; 1 Hill, S. C. 155. Estates 
+@@ -7035,7 +7035,7 @@
+ Expectation. Boyle on Char. 319.
+ Expense. 15 Serg. & Rawle, 55.
+ Extend. 1 Paine's R. 385.
+-
++-----------------------------
+ Facsimiles. 7 Mann. & Gr. 399
+ Factory prices. 2 Conn. R. 69; 2 Mason, 89, 90.
+ Factum. 1 Leon. 310.
+@@ -7114,7 +7114,7 @@
+ Future. 7 W. & S. 305; 2 Pa. St. R. 146.
+ Future increase. 3 Yerg. 546. See 2 Bibb, 76; 4 Hen. & Munf. 283.
+ Future conveyances. 2 P. St. R. 146.
+-
++-----------------------------
+ Gamble. 2 Yerger, 472.
+ Geldings, cattle. 1 Leach, C. C. 73, n.
+ Gentlemen. 21Y. & C. 683; 21 Jurist, 152
+@@ -7158,7 +7158,7 @@
+ Ground-rents. I Meriv. 26; 2 Str. 1020; 1 Bro. C. C. 76.
+ Growing. 4 Leon. 36.
+ Gutta serena. Oliph. on Horses, 44.
+-
++-----------------------------
+ Habitable repair. 2 Mo. & Rob. 186
+ Half mile. 9 B. & C. 774.
+ Has bargained and sold. 4 Cowen, 225.
+@@ -7206,7 +7206,7 @@
+ House I live in and garden to B. 2 T. R. 298.
+ Household goods. 3 Ves. jr. 310; 1 John. Ch. R. 329; 3 P. Wms. 335.
+ Household furniture. 2 Hall, R. 490.
+-
++-----------------------------
+ I guaranty the payment of the within note at the insolvency of the drawers. 
+   5 Humph. 476. 
+ I return A his bonds. 3 Ves. 231.
+@@ -7262,7 +7262,7 @@
+ It shall be lawful. 8 N. S. 539.
+ It shall be lawful for the court. 1 John. Ch. R. 491.
+ Ita quod. Ld. Raym. 760.
+-
++-----------------------------
+ Jewels. Ward on Leg. 221; Mos. 112.
+ Jewelry. 14 Pick. 370. Vide infra Trinkets.
+ Jockey. 8 Scott, N. S. 5S4.
+@@ -7275,13 +7275,13 @@
+ Junior. 8 John. 549; 8 Conn. R. 293.
+ Just debts. 1 Binn. 209; 9 Mass. 62.
+ Justifiable cause. 1 Sumn. 194.
+-
++-----------------------------
+ Kept. 4 Scamm. 168.
+ Kin. Next of kin. 15 Ves. 109; Id. 583; 3 Bro. C. C. 355. Next of
+ kin or heir at law. 4 Ves. 469. Next of kin, in equal degree. 12 Ves. 433. 
+ King's enemies. 1 Leigh's N. P. 509.
+ King and being privy to. Platt on Cov. 338.
+-
++-----------------------------
+ Laborer. 1 Lo. Rep. 268.
+ Lamb - Mutton. 1 Moody, Cr. Cas. 242; and see Russ. & Ry. 497.
+ Lampooner. 3 Lev. 248.
+@@ -7323,7 +7323,7 @@
+ Lot No. 54. 1 Verm. R. 336; 18 John. R. 107; 5 N. R. Rep. 58.
+ Lots. 4 Ohio, 5.
+ Lying at the wharf. 2 McCord, 105.
+-
++-----------------------------
+ Made. 1 Cranch, 239. 
+ Made his note to the plaintiff for $760. 1 Breese's R. 122.
+ Magistrate. 13 Pick. 523.
+@@ -7390,7 +7390,7 @@
+ My house, and all that shall be in it at my death. 1 Bro. C. C. 129, n.; 11 
+   Ves. 662, 
+ My right heirs on the part of my mother. 4 Ves. 766.
+-
++-----------------------------
+ Name and blood. 15 Ves. 92.
+ Navicular disease. Oliph. on Horses, 47.
+ Navigable river. 6 Cowen, 528; 21 Pick. R. 344.
+@@ -7418,7 +7418,7 @@
+ Notes current in the city of New York. 19 John. R. 14 6.
+ Notice of action. 1 Holt's N. P. R. 27.
+ Now. 3 Penna. R. 288, 9; 4 Mann. & Gr. 99, 100.
+-
++-----------------------------
+ Occupation. 7 W. & S. 330.
+ Occupied. 1 Breese's R. 70.
+ Of. 2 T. R. 431.
+@@ -7473,7 +7473,7 @@
+ Owner. 6 Nev. & M. 340.
+ Oxgang. Touchs. 93; Co. Litt. 5.
+ Oyster spat. 12 Ad. & Ell. 13; S. C. 40 E. C. L. R. 15.
+-
++-----------------------------
+ Passage room. 2 Ld. Raym. 1470.
+ Passing through the town. 6 Ohio, R. 142.
+ Payable. 14 Ves. 470; 16 Ves. 172; 2 Supp to Ves. jr. 296; 13 Ves. 113; 3 
+@@ -7567,12 +7567,12 @@
+ Published. 3 M. & W. 461; 9 Bing. 605; 5 B. & Adol. 518: 6 M. & W. 473; 8 D. 
+   P. C. 392. 
+ Purchasing. 6 Ves. 404.
+-
++-----------------------------
+ Quamdiu. Orl. Bridg. 202.
+ Quantity and boundary. 2 Caines' Rep. 146.
+ Quit. 2 N. H. Rep. 402.
+ Quotation. Eden. Inj. 327, 328.
+-
++-----------------------------
+ Race-field. 9 Leigh, 648.
+ Raffie. 2 Rep. Const. Conn. 128.
+ Raise. 1 Atk. 421; 2 Vern. 153.
+@@ -7639,7 +7639,7 @@
+ Rolling-mill. 2 Watts & Serg. 390.
+ Roots. 7 John. R. 385.
+ Running days. 1 Bell's Com. 577, 5th ed.
+-
++-----------------------------
+ Said - saith. 3 Dowl. P. C. 455; 5 Tyr. 391 1 Gale, 47.
+ Said 1 Chit. Cr. Law, *174; 2 Car. Law Rep. 75. 
+ To sail. 3 M. & S. 461, 
+@@ -7738,7 +7738,7 @@
+ Survivors. 17 Ves. 482; 5 Ves. 465.
+ Survivor and survivors. 3 Burr. 1881; 8 B. & Cr. 231.
+ Suine. 15 Mass. 205.
+-
++-----------------------------
+ Take. 2 Pet. R. 538.
+ Take and fill shares. 1 Fairf. 478.
+ Taken out of the state. 1 Hill, 150.
+@@ -7823,7 +7823,7 @@
+ Tunc. 5 Mann. & Gr. 696.
+ Turnpike Road. 20 Johns. R. 742.
+ Two years after demand. 8 D. & R. 347.
+-
++-----------------------------
+ Unavoidable accident. 1 Brock. R. 187.
+ Understood. 2 Cox's Ch. R. 16.
+ Underwood. 2 Rolle's R. 485.
+@@ -7850,7 +7850,7 @@
+   433; 3 Ohio R. 18; 1 Blackford's R. 336; 1 Fairfield, R. 315; 2 Chit. Cr. 
+   Law, *549; 3 Ld. Raym. 36; Trem. P. C. 269; Co. Entr. 394, 435; Rast. 
+   Entr. 689; Cro. C. C. 743; Com. Dig. Usury, C; 4 Bl. Com. 158; Hard. 420. 
+-
++-----------------------------
+ Vacancies. 2 Wend. 273.
+ Vacancy. 1 Breese's R. 70.
+ Valuable things. 1 Cox, t7; 1 Bro. C. C. 467.
+@@ -7864,7 +7864,7 @@
+ Videlicet. 8 Ves. 194.
+ Village or town. Co. Litt. 5; Plowd. 168; Touchst. 92.
+ Voluntary assignment. 3 Sumn. R. 345.
+-
++-----------------------------
+ Wantonness. 1 Wheel. Cr. Cas. 365; 4 W. C. C. R. 534; 1 Hill, 46, 363. 
+ Warbles. Oliph. on Law of Horses, 53; 9 M. & W. 670.
+ Warehouse. Cro. Car. 554; Gilb. Ej. 57; 2 Rosc. R. Act. 484; 8
+@@ -7925,7 +7925,7 @@
+ Worth and value. 3 B. & C. 516.
+ Writing. 14 John. 484; 8 Ves. 504; 2 M. & S. 286; 17 Ves. 459.
+ Writing in pencil. 1 Eng. Eccl. Rep. 406.
+-
++-----------------------------
+ Yard lane. Touchs. 93; Co. Litt. 5.
+ Yearly meeting of Quakers. 6 Conn. 393.
+ Yearly meeting. 6 Conn. 292.
+@@ -12363,4 +12363,3 @@
+ CZARINA. The title of the empress of Russia.
+ 
+ CZAROWITZ.. The title of the eldest son of the czar and czarina of Russia. 
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierd.txt
++++ dict-bouvier-6.revised/bouvierd.txt
+@@ -7046,4 +7046,4 @@
+ una colonna a quest officio destinata, egli l'abbraccia nel mentre, che uno 
+ araldo grida Cedo bonis ed un al tro gli abza le vesti, e palesa agli 
+ spettatori le sue natiche. Finita questa ceremonia il debitore messo in 
+-liberta." Filangieri della legislazione, cap. iv.
+\ No newline at end of file
++liberta." Filangieri della legislazione, cap. iv.
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouviere.txt
++++ dict-bouvier-6.revised/bouviere.txt
+@@ -3642,4 +3642,3 @@
+ 
+ EYOTT. A small island arising in a river. Fleta, lib. 3, c. 2, s. b; Bract. 
+ lib. 2, c. 2. See Island.
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierf.txt
++++ dict-bouvier-6.revised/bouvierf.txt
+@@ -3492,4 +3492,3 @@
+ eternal. 2 Watts' & Serg. 263. See the authorities cited under the article 
+ Infidel. But it seems now to be settled, that when the witness believes in a 
+ God who will reward or punish him, even in this world, he is competent. 
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvieri.txt
++++ dict-bouvier-6.revised/bouvieri.txt
+@@ -5510,4 +5510,3 @@
+ ITINERANT. Travelling or taking a journey. In England there were formerly 
+ judges called Justices itinerant, who were sent with commissions into 
+ certain counties to try causes.
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierl.txt
++++ dict-bouvier-6.revised/bouvierl.txt
+@@ -6483,4 +6483,3 @@
+ LYNCH-LAW. A common phrase used to express the vengeance of a mob, 
+ inflicting an injury, and committing an outrage upon a person suspected of 
+ some offence. In England this is called Lidford Law. Toml.L. Dict. art. 
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierm.txt
++++ dict-bouvier-6.revised/bouvierm.txt
+@@ -2360,7 +2360,7 @@
+ apparently general rule. 
+      4. The alterations of any of the maxims of the common law are 
+ dangerous. 2 Inst. 210. The following are some of the more important maxims. 
+-
++----------------------------------------
+ A communi observantia non est recedendum. There should be no departure from 
+    common observance or usage. Co. Litt. 186. 
+ A l'impossible nul n'est tenu. No one is bound to do what is impossible. 1 
+@@ -8439,4 +8439,3 @@
+ 
+ MYSTIC. In a secret manner; concealed; as mystic testament, for a secret 
+ testament. Vide 2 Bouv. Inst. n. 3138; Testament Mystic.
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouviern.txt
++++ dict-bouvier-6.revised/bouviern.txt
+@@ -3954,4 +3954,3 @@
+ Guardian, D. 
+ 
+ NURUS. A daughter-in-law. Dig. 50, 16, 50.
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierp.txt
++++ dict-bouvier-6.revised/bouvierp.txt
+@@ -9450,4 +9450,3 @@
+ when a man is suddenly knocked down and robbed while he is senseless, there 
+ is no fear,, yet in consequence of the violence, it is presumed. 2 East, P. 
+ C. 711; 4 Binn. Rep. 379; 3 Wash. C. C. Rep. 209; 2 Chit. Cr. Law, 803. 
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouvierr.txt
++++ dict-bouvier-6.revised/bouvierr.txt
+@@ -5724,4 +5724,3 @@
+ RUTA, civ. law. The name given to those things which are extracted or taken 
+ from land, as sand, chalk, coal, and such other things. Poth. Pand. liv. 50, 
+ h.t. 
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/bouviers.txt
++++ dict-bouvier-6.revised/bouviers.txt
+@@ -5764,4 +5764,3 @@
+ the common lawyers chirographs. (q.v.) 2 Blackstone's Commentaries, 296. 
+ 
+ SYNOD. An ecclesiastical assembly. 
+-
+\ No newline at end of file
+--- dict-bouvier-6.revised.orig/debian/postinst
++++ dict-bouvier-6.revised/debian/postinst
+@@ -0,0 +1,50 @@
++#! /bin/sh
++# postinst script for dict-moby-thesaurus
++#
++# see: dh_installdeb(1)
++
++set -e
++
++# summary of how this script can be called:
++#        * <postinst> `configure' <most-recently-configured-version>
++#        * <old-postinst> `abort-upgrade' <new version>
++#        * <conflictor's-postinst> `abort-remove' `in-favour' <package>
++#          <new-version>
++#        * <deconfigured's-postinst> `abort-deconfigure' `in-favour'
++#          <failed-install-package> <version> `removing'
++#          <conflicting-package> <version>
++# for details, see http://www.debian.org/doc/debian-policy/ or
++# the debian-policy package
++#
++# quoting from the policy:
++#     Any necessary prompting should almost always be confined to the
++#     post-installation script, and should be protected with a conditional
++#     so that unnecessary prompting doesn't happen if a package's
++#     installation fails and the `postinst' is called with `abort-upgrade',
++#     `abort-remove' or `abort-deconfigure'.
++
++case "$1" in
++    configure)
++     if [ -x /usr/sbin/dictdconfig ]; then dictdconfig -w ;fi
++     if [ -x /etc/init.d/dictd ]; then /etc/init.d/dictd restart;fi
++
++    ;;
++
++    abort-upgrade|abort-remove|abort-deconfigure)
++
++    ;;
++
++    *)
++        echo "postinst called with unknown argument \`$1'" >&2
++        exit 1
++    ;;
++esac
++
++# dh_installdeb will replace this with shell code automatically
++# generated by other debhelper scripts.
++
++#DEBHELPER#
++
++exit 0
++
++
+--- dict-bouvier-6.revised.orig/debian/changelog
++++ dict-bouvier-6.revised/debian/changelog
+@@ -0,0 +1,6 @@
++dict-bouvier (6.revised-1) unstable; urgency=low
++
++  * Initial Release.  Closes: #143633.
++
++ -- John Goerzen <jgoerzen@complete.org>  Fri, 19 Apr 2002 14:10:31 -0500
++
+--- dict-bouvier-6.revised.orig/debian/dirs
++++ dict-bouvier-6.revised/debian/dirs
+@@ -0,0 +1 @@
++usr/share/dictd
+--- dict-bouvier-6.revised.orig/debian/copyright
++++ dict-bouvier-6.revised/debian/copyright
+@@ -0,0 +1,10 @@
++This package was debianized by John Goerzen <jgoerzen@complete.org> on
++Fri, 19 Apr 2002 14:10:31 -0500.
++
++It was downloaded from http://www.constitution.org/bouv/bouvier.htm
++
++Upstream Author(s): John Bouvier, 1856.
++
++Copyright:
++
++Copyright claims to this work have expired; it is now public domain.
+--- dict-bouvier-6.revised.orig/debian/control
++++ dict-bouvier-6.revised/debian/control
+@@ -0,0 +1,14 @@
++Source: dict-bouvier
++Section: text
++Priority: optional
++Maintainer: John Goerzen <jgoerzen@complete.org>
++Build-Depends-Indep: debhelper (>> 3.0.0), python2.2, python2.2-dictdlib (>= 1.0.3), dictd
++Standards-Version: 3.5.2
++
++Package: dict-bouvier
++Architecture: all
++Suggests: dict, dictd
++Description: John Bouvier's Law Dictionary for the USA
++ This is the 1856 Revised Sixth Ediition of John Bouvier's law dictionary,
++ formatted for use with the dictd server.  It is an excellent, if dated,
++ way to look up information about legal words and principles.
+--- dict-bouvier-6.revised.orig/debian/rules
++++ dict-bouvier-6.revised/debian/rules
+@@ -0,0 +1,94 @@
++#!/usr/bin/make -f
++# Sample debian/rules that uses debhelper.
++# GNU copyright 1997 to 1999 by Joey Hess.
++
++# Uncomment this to turn on verbose mode.
++#export DH_VERBOSE=1
++
++# This is the debhelper compatibility version to use.
++export DH_COMPAT=3
++
++
++
++ifneq (,$(findstring debug,$(DEB_BUILD_OPTIONS)))
++	CFLAGS += -g
++endif
++ifeq (,$(findstring nostrip,$(DEB_BUILD_OPTIONS)))
++	INSTALL_PROGRAM += -s
++endif
++
++configure: configure-stamp
++configure-stamp:
++	dh_testdir
++	# Add here commands to configure the package.
++
++	touch configure-stamp
++
++
++build: build-stamp
++
++build-stamp: configure-stamp 
++	dh_testdir
++
++	# Add here commands to compile the package.
++	python2.2 conv.py *.txt
++	dictzip bouvier.dict
++	touch build-stamp
++
++clean:
++	dh_testdir
++	dh_testroot
++	rm -f build-stamp configure-stamp
++
++	# Add here commands to clean up after the build process.
++	#-$(MAKE) clean
++
++	-rm -f *.dz *.index *.dict *.dictfmt *.pyc
++
++	dh_clean
++
++install: build
++	dh_testdir
++	dh_testroot
++	dh_clean -k
++	dh_installdirs
++
++	# Add here commands to install the package into debian/dict-bouvier
++	#$(MAKE) install DESTDIR=$(CURDIR)/debian/dict-bouvier
++	cp *.dz *.index debian/dict-bouvier/usr/share/dictd
++
++
++binary-arch: build install
++# We have nothing to do by default.
++
++binary-indep: build install
++	dh_testdir
++	dh_testroot
++#	dh_installdebconf	
++	dh_installdocs
++	dh_installexamples
++	dh_installmenu
++#	dh_installlogrotate
++#	dh_installemacsen
++#	dh_installpam
++#	dh_installmime
++#	dh_installinit
++	dh_installcron
++	dh_installman
++	dh_installinfo
++#	dh_undocumented
++	dh_installchangelogs 
++	dh_link
++	dh_strip
++	dh_compress
++	dh_fixperms
++#	dh_makeshlibs
++	dh_installdeb
++#	dh_perl
++	dh_shlibdeps
++	dh_gencontrol
++	dh_md5sums
++	dh_builddeb
++
++binary: binary-indep binary-arch
++.PHONY: build clean binary-indep binary-arch binary install configure
+--- dict-bouvier-6.revised.orig/debian/postrm
++++ dict-bouvier-6.revised/debian/postrm
+@@ -0,0 +1,40 @@
++#! /bin/sh
++# postrm script for dict-moby-thesaurus
++#
++# see: dh_installdeb(1)
++
++set -e
++
++# summary of how this script can be called:
++#        * <postrm> `remove'
++#        * <postrm> `purge'
++#        * <old-postrm> `upgrade' <new-version>
++#        * <new-postrm> `failed-upgrade' <old-version>
++#        * <new-postrm> `abort-install'
++#        * <new-postrm> `abort-install' <old-version>
++#        * <new-postrm> `abort-upgrade' <old-version>
++#        * <disappearer's-postrm> `disappear' <r>overwrit>r> <new-version>
++# for details, see http://www.debian.org/doc/debian-policy/ or
++# the debian-policy package
++
++
++case "$1" in
++       purge|remove|upgrade|failed-upgrade|abort-install|abort-upgrade|disappear)
++     if [ -x /usr/sbin/dictdconfig ]; then dictdconfig -w ;fi
++     if [ -x /etc/init.d/dictd ]; then /etc/init.d/dictd restart;fi
++
++
++        ;;
++
++    *)
++        echo "postrm called with unknown argument \`$1'" >&2
++        exit 1
++
++esac
++
++# dh_installdeb will replace this with shell code automatically
++# generated by other debhelper scripts.
++
++#DEBHELPER#
++
++exit 0
+--- dict-bouvier-6.revised.orig/conv.py
++++ dict-bouvier-6.revised/conv.py
+@@ -0,0 +1,68 @@
++import sys, dictdlib, re
++
++# Generator script Copyright (c) 2002 by John Goerzen.
++# GPL'd.
++
++introtext = ''
++# defpatt = "^([A-Z][^a-z0-9,.@;]+).+[.,;].+$"
++defpatt = "^([A-Z][A-Z0-9' -]*[A-Z]).+[.,;].+$"
++firstpatt = "^([AFM])[,.;]"
++
++print "Generating intro text."
++
++# Find the intro from the first file.
++
++fd = open(sys.argv[1], "rt")
++for line in fd.xreadlines():
++    if re.search(defpatt, line):
++        break
++    introtext += line
++fd.close()
++
++print "Processing files."
++
++dw = dictdlib.DictWriter('bouvier',
++                         'http://www.constitution.org/bouv/bouvier.htm',
++                         "Bouvier's Law Dictionary, Revised 6th Ed (1856)",
++                         introtext)
++
++for filename in sys.argv[1:]:
++    fd = open(filename, "rt")
++
++    ignoring = 1                        # Ignore stuff at beginning of file.
++    headword = None                     # What we're reading now.
++    defstr = ''                         # Text of current def.
++    readyforstart = 1                   # Whether or not we're ready for def
++                                        # start (saw a blank line)
++
++    for line in fd.xreadlines():
++        if len(line) == 1:              # Blank line.
++            readyforstart = 1
++            if not ignoring:
++                defstr += line
++        elif readyforstart:
++            # Mark it 0 so we won't match stuff next time.
++            # We know that len is not 1 here.
++            readyforstart = 0
++            if not ignoring:
++               match = re.search(defpatt, line)
++            else:
++               match = re.search(firstpatt, line) or re.search(defpatt, line)
++            if not match:
++                if ignoring:
++                    continue
++                else:
++                    defstr += line
++            else:                       # Start of new def.
++                if headword != None:
++                    # Write out previous one.
++                    dw.writeentry(defstr, [headword])
++                headword = match.group(1)
++                ignoring = 0
++                defstr = line
++        else:
++            defstr += line
++            readyforstart = 0
++
++dw.finish()
++
