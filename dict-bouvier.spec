@@ -21,7 +21,7 @@ Requires:	%{_sysconfdir}/dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is the 1856 Revised Sixth Ediition of John Bouvier's law dictionary,
+This is the 1856 Revised Sixth Edition of John Bouvier's law dictionary,
 formatted for use with the dictd server.  It is an excellent, if dated,
 way to look up information about legal words and principles.
 
