@@ -13,9 +13,9 @@ Source0:	%{name}_%{version}.tar.gz
 Patch0:		%{name}_%{version}.revised-1.diff
 # from debian
 URL:		http://www.constitution.org/bouv/bouvier.htm
-BuildRequires:	dictfmt
 BuildRequires:	dictzip
 BuildRequires:	python
+BuildRequires:	python-dictlib
 Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -31,24 +31,16 @@ autorstwa Johna Bouviera. Jest wspania³ym ¼ród³em informacji o prawie
 z tamtych czasów.
 
 %prep
-%setup -n %{name}-%{version}.revised.orig
+%setup -n %{name}-%{version}.revised.orig -q
 %patch0 -p1
 
 %build
 
-# ./conv.py ???
-# ???
+python conv.py *.txt
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_datadir}/dictd/,%{_sysconfdir}/dictd}
-
-#database $i {
-#	data  \"$dictprefix.dict.dz\"
-#	index \"$dictprefix.index\"
-#}" > $RPM_BUILD_ROOT%{_sysconfdir}/dictd/%{dictname}-$i.dictconf
-#	install %{dictname}_$i.* $RPM_BUILD_ROOT%{_datadir}/dictd/
-#done
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -65,5 +57,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/%{dictname}-%{dict6}.dictconf
-%{_datadir}/dictd/%{dictname}_%{dict6}.*
+%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/bouvier*
+%{_datadir}/dictd/bouvier*
