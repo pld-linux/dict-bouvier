@@ -1,8 +1,7 @@
-#  $Id: dict-bouvier.spec,v 1.3 2002-10-24 13:19:49 qboosh Exp $
 Summary:	John Bouvier's Law Dictionary dated 1856 for the USA in the DICTD format
 Summary(pl):	S³ownik prawa USA Johna Bouviera z 1856 roku w formacie DICTD
 Name:		dict-bouvier
-Version:	1
+Version:	6
 Release:	2
 License:	GPL
 # it was downloaded from http://www.constitution.org/bouv/bouvier.htm
@@ -10,8 +9,8 @@ License:	GPL
 # Copyright claims to this work have expired; it is now public domain.
 # so it's compatible w/ Gnu GPL ???
 Group:		Applications/Dictionaries
-Source0:	dict-bouvier_6.tar.gz
-Patch0:		dict-bouvier_6.revised-1.diff 
+Source0:	%{name}_%{version}.tar.gz
+Patch0:		%{name}_%{version}.revised-1.diff
 # from debian
 URL:		http://www.constitution.org/bouv/bouvier.htm
 BuildRequires:	dictfmt
@@ -32,7 +31,7 @@ autorstwa Johna Bouviera. Jest wspania³ym ¼ród³em informacji o prawie
 z tamtych czasów.
 
 %prep
-%setup -n dict-bouvier-6.revised.orig
+%setup -n %{name}-%{version}.revised.orig
 %patch0 -p1
 
 %build
