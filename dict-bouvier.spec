@@ -10,6 +10,7 @@ License:	GPL
 # so it's compatible w/ Gnu GPL ???
 Group:		Applications/Dictionaries
 Source0:	%{name}_%{version}.tar.gz
+# Source0-md5:	1c03c5338e6fb5223b0ce341d0ca38ac
 Patch0:		%{name}_%{version}.revised-1.diff
 # from debian
 URL:		http://www.constitution.org/bouv/bouvier.htm
