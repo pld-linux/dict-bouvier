@@ -1,6 +1,6 @@
-#  $Id: dict-bouvier.spec,v 1.1 2002-10-10 05:36:14 hunter Exp $
-Summary:	John Bouvier's Law Dictionary dated 1856 for the USA in the DICTD format.
-Summary(pl):	S³ownik prawa USA z 1856 w formacie DICTD.
+#  $Id: dict-bouvier.spec,v 1.2 2002-10-10 07:11:04 kloczek Exp $
+Summary:	John Bouvier's Law Dictionary dated 1856 for the USA in the DICTD format
+Summary(pl):	S³ownik prawa USA z 1856 w formacie DICTD
 Name:		dict-bouvier
 Version:	1
 Release:	1
