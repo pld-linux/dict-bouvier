@@ -1,9 +1,9 @@
-#  $Id: dict-bouvier.spec,v 1.2 2002-10-10 07:11:04 kloczek Exp $
+#  $Id: dict-bouvier.spec,v 1.3 2002-10-24 13:19:49 qboosh Exp $
 Summary:	John Bouvier's Law Dictionary dated 1856 for the USA in the DICTD format
-Summary(pl):	S這wnik prawa USA z 1856 w formacie DICTD
+Summary(pl):	S這wnik prawa USA Johna Bouviera z 1856 roku w formacie DICTD
 Name:		dict-bouvier
 Version:	1
-Release:	1
+Release:	2
 License:	GPL
 # it was downloaded from http://www.constitution.org/bouv/bouvier.htm
 # Upstream Author(s): John Bouvier, 1856.
@@ -27,7 +27,9 @@ formatted for use with the dictd server.  It is an excellent, if dated,
 way to look up information about legal words and principles.
 
 %description -l pl
-Jest to s這wnik prawa ameryka雟kiego z 1856 roku, autorstwa John Bouvier.
+Jest to sz鏀te wydanie s這wnika prawa ameryka雟kiego z 1856 roku,
+autorstwa Johna Bouviera. Jest wspania造m 廝鏚貫m informacji o prawie
+z tamtych czas闚.
 
 %prep
 %setup -n dict-bouvier-6.revised.orig
