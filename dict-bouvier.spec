@@ -17,14 +17,15 @@ URL:		http://www.constitution.org/bouv/bouvier.htm
 BuildRequires:	dictzip
 BuildRequires:	python
 BuildRequires:	python-dictlib
-Requires:	dictd
 Requires:	%{_sysconfdir}/dictd
+Requires:	dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is the 1856 Revised Sixth Edition of John Bouvier's law dictionary,
-formatted for use with the dictd server.  It is an excellent, if dated,
-way to look up information about legal words and principles.
+This is the 1856 Revised Sixth Edition of John Bouvier's law
+dictionary, formatted for use with the dictd server. It is an
+excellent, if dated, way to look up information about legal words and
+principles.
 
 %description -l pl
 Jest to szóste wydanie s³ownika prawa amerykañskiego z 1856 roku,
@@ -58,5 +59,5 @@ fi
 
 %files
 %defattr(644,root,root,755)
-%attr(640,root,root) %config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/dictd/bouvier*
+%attr(640,root,root) %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/dictd/bouvier*
 %{_datadir}/dictd/bouvier*
