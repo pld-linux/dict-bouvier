@@ -1,5 +1,5 @@
 Summary:	John Bouvier's Law Dictionary dated 1856 for the USA in the DICTD format
-Summary(pl):	S³ownik prawa USA Johna Bouviera z 1856 roku w formacie DICTD
+Summary(pl.UTF-8):   SÅ‚ownik prawa USA Johna Bouviera z 1856 roku w formacie DICTD
 Name:		dict-bouvier
 Version:	6
 Release:	3
@@ -27,10 +27,10 @@ dictionary, formatted for use with the dictd server. It is an
 excellent, if dated, way to look up information about legal words and
 principles.
 
-%description -l pl
-Jest to szóste wydanie s³ownika prawa amerykañskiego z 1856 roku,
-autorstwa Johna Bouviera. Jest wspania³ym ¼ród³em informacji o prawie
-z tamtych czasów.
+%description -l pl.UTF-8
+Jest to szÃ³ste wydanie sÅ‚ownika prawa amerykaÅ„skiego z 1856 roku,
+autorstwa Johna Bouviera. Jest wspaniaÅ‚ym ÅºrÃ³dÅ‚em informacji o prawie
+z tamtych czasÃ³w.
 
 %prep
 %setup -n %{name}-%{version}.revised.orig -q
