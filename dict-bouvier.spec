@@ -2,7 +2,7 @@ Summary:	John Bouvier's Law Dictionary dated 1856 for the USA in the DICTD forma
 Summary(pl.UTF-8):	Słownik prawa USA Johna Bouviera z 1856 roku w formacie DICTD
 Name:		dict-bouvier
 Version:	6
-Release:	3
+Release:	4
 License:	GPL
 # it was downloaded from http://www.constitution.org/bouv/bouvier.htm
 # Upstream Author(s): John Bouvier, 1856.
@@ -17,6 +17,7 @@ URL:		http://www.constitution.org/bouv/bouvier.htm
 BuildRequires:	dictzip
 BuildRequires:	python
 BuildRequires:	python-dictlib
+BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	%{_sysconfdir}/dictd
 Requires:	dictd
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -37,7 +38,6 @@ z tamtych czasów.
 %patch0 -p1
 
 %build
-
 python conv.py *.txt
 
 %install
@@ -48,13 +48,11 @@ install -d $RPM_BUILD_ROOT{%{_datadir}/dictd/,%{_sysconfdir}/dictd}
 rm -rf $RPM_BUILD_ROOT
 
 %post
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2
-fi
+%service -q dictd restart
 
 %postun
-if [ -f /var/lock/subsys/dictd ]; then
-	/etc/rc.d/init.d/dictd restart 1>&2 || true
+if [ "$1" = 0 ]; then
+	%service -q dictd restart
 fi
 
 %files
