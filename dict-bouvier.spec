@@ -35,7 +35,7 @@ z tamtych czasów.
 
 %prep
 %setup -n %{name}-%{version}.revised.orig -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 python conv.py *.txt
